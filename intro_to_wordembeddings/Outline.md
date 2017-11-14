@@ -1,21 +1,3 @@
-Check in days : 
-
-* Friday  7 th July 
-
-  * Seeing all videos
-  * Getting the 'gist' of word embedding
-  * Writing the overview, definition, historically popular word embeddings
-
-* Wednesday 12 July :
-
-  * Using Pre-trained word vector part (around 5 days should be enough to do it)
-
-  * Research gensim.
-
-    ​
-
-    ​
-
 #### Article : Word Embedding tutorial
 
 **Overview**
@@ -32,17 +14,14 @@ As a mapping from word to numeric vectors
 
 **Using pre-trained word embeddings** 
 
-(Either Glove/FastText, I'm thinking about FastText but Glove has more available tutorials in keras) :
-
- * Downloading them
- * Showing pairwise distance between some words
- * Nearest neighbor of some words
- * Visualizing them with t-sne in scikit learn
- * Optional ( Use keras from tensorflow for doing everything and visualize them in tensorboard) (Unsure how to make it work)
+Brief mention and resources.
 
 **Using pre-trained word embeddings for classification in Keras :** 
 
-* Doing text classification without word embeddings with bag of words/tf-idf 
-* Doing text classification with word embedding and compare.
+* Dataset overview, 
+* Preprocessing with keras tokenizer class
+* Converting the text to embeddings
+* Creating a 1D convolutional model/LTSM network and use it for text classification
+* Checking it against a baseline like multinomial bias.
 
 **Conclusion** 
